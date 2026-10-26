@@ -12,6 +12,11 @@ Claude Code skills that are thinking operators: each one is a named move on a th
 | `review-verify-loop` | reviewer proposes findings, one verifier per finding tries to refute it, repeat | used |
 | `operator-neighborhood` | take one operator, span its axes, find free neighbors | untested |
 | `operator-router` | choose which operator fits a problem before applying one | untested |
+| `skill-mining` | mine your own session history: recurring requests → classes → unmet needs → new skills | used once (derived the next three) |
+| `done-check` | walk the definition of done before reporting "done"; do or list each open step | untested |
+| `claim-check` | one verifier per claim in a text, against the primary source; errata list | untested |
+| `reader-rewrite` | rewrite a result for one named reader: current state, names, URLs, no local refs | untested |
+| `dev-cycle` | one work item from intake to closed on a single go; stops only at fixed gates (merge, shared deploy, unauthorized posts, open decisions) | untested |
 
 "Untested" means written, not yet run against real cases. Operators are conjectures; they stay
 only if they find things a bare prompt would not.
